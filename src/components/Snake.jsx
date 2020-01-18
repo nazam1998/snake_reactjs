@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 const Snake = (props) => {
-    let style = { top: `${props.dot[0]}%`, top: `${props.dot[1]}%` }
     return (
-        <div style={style}>
+        <div>
+            {props.dot.map((e, index) => {
+                const style = {
+                    left: `${e[0]}%`,
+                    top: `${e[1]}%`
+                }
+                console.log(style);
+                
+                return (<div className='snake' key={index} style={style} ></div>)
+            })}
         </div>
     )
 };

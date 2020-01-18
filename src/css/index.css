@@ -15,6 +15,7 @@ body .snake {
   width: 2%;
   border: 2px white solid;
   background-color: red;
+  z-index: 3;
 }
 body .food {
   position: absolute;
@@ -22,6 +23,7 @@ body .food {
   width: 2%;
   border: 2px white solid;
   background-color: green;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=index.css.map */

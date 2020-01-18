@@ -1,8 +1,12 @@
 import React from 'react';
-const Food = () => {
+const Food = (props) => {
+    const style = {
+        left: `${props.dot[0]}%`,
+        top: `${props.dot[1]}%`
+    }
     return (
 
-        <div>
+        <div className='food' style={style}>
         </div>
 
     )
