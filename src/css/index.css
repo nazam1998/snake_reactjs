@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+}
+body .plateau {
+  position: relative;
+  margin: 50px auto;
+  width: 600px;
+  height: 600px;
+  border: 2px white dotted;
+  background-color: black;
+}
+body .snake {
+  position: absolute;
+  height: 2%;
+  width: 2%;
+  border: 2px white solid;
+  background-color: red;
+}
+body .food {
+  position: absolute;
+  height: 2%;
+  width: 2%;
+  border: 2px white solid;
+  background-color: green;
+}
+
+/*# sourceMappingURL=index.css.map */
